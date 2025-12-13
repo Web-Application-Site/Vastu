@@ -1,0 +1,89 @@
+.vh-navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.45);
+    backdrop-filter: blur(6px);
+    z-index: 1000;
+    padding: 12px 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: 800;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .logo-icon {
+    margin-right: 6px;
+  }
+  
+  #menu {
+    display: flex;
+    gap: 22px;
+    list-style: none;
+  }
+  
+  #menu li a {
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .nav-cta {
+    padding: 8px 16px;
+    background: #ff8b2c;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+  }
+  
+  /* Mobile Nav */
+  .mobile-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-toggle {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .bar {
+      width: 25px;
+      height: 3px;
+      background: white;
+    }
+  
+    #menu {
+      position: absolute;
+      top: 72px;
+      right: 0;
+      background: rgba(0,0,0,0.9);
+      flex-direction: column;
+      width: 100%;
+      display: none;
+      padding: 18px 0;
+    }
+  
+    #menu.open {
+      display: flex;
+    }
+  
+    #menu li {
+      padding: 10px 0;
+    }
+  }
+  
