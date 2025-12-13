@@ -1,6 +1,7 @@
+
 {
-  "name": "my-react-app",
-  "homepage": "https://patushinde.github.io/vastu-consultant/",
+  "name": "vastu",
+  "homepage": "https://web-application-site.github.io/Vastu/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
