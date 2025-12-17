@@ -253,7 +253,7 @@ const Home = () => {
                 </section> */}
 
                 {/* PRODUCTS */}
-                <section id="products">
+                {/* <section id="products">
                     <div className="section-title">
                         <h2>Shop Trusted Vastu Remedies</h2>
                     </div>
@@ -306,7 +306,64 @@ const Home = () => {
                             <button className="btn-primary">Buy Now</button>
                         </div>
                     </div>
+                </section> */}
+
+                <section id="products">
+                    <div className="section-title">
+                        <h2>Vastu Approved Properties</h2>
+                    </div>
+
+                    <div className="products-grid">
+                        <div className="product">
+                            <img
+                                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+                                alt="Luxury Villa"
+                            />
+                            <div>
+                                <strong>Luxury Villa</strong>
+                            </div>
+                            <div className="muted">Pune • ₹1.2 Cr</div>
+                            <button className="btn-primary">View Details</button>
+                        </div>
+
+                        <div className="product">
+                            <img
+                                src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+                                alt="Modern Apartment"
+                            />
+                            <div>
+                                <strong>Modern Apartment</strong>
+                            </div>
+                            <div className="muted">Mumbai • ₹85 Lakh</div>
+                            <button className="btn-primary">View Details</button>
+                        </div>
+
+                        <div className="product">
+                            <img
+                                src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+                                alt="Independent House"
+                            />
+                            <div>
+                                <strong>Independent House</strong>
+                            </div>
+                            <div className="muted">Nagpur • ₹65 Lakh</div>
+                            <button className="btn-primary">View Details</button>
+                        </div>
+
+                        <div className="product">
+                            <img
+                                src="https://images.unsplash.com/photo-1494526585095-c41746248156"
+                                alt="Commercial Property"
+                            />
+                            <div>
+                                <strong>Commercial Property</strong>
+                            </div>
+                            <div className="muted">Bangalore • ₹2.1 Cr</div>
+                            <button className="btn-primary">View Details</button>
+                        </div>
+                    </div>
                 </section>
+
 
                 {/* Dummy sections for anchors (contact/login) */}
                 <section id="contact" style={{ padding: '24px 0' }}>
